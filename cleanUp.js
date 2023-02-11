@@ -9,12 +9,15 @@
 
 // EX 1:
 function askForName() { 
-  console.log("Hello, what is your name?") 
+  console.log("Hello, what is your name?");
 }
 
 askForName()
 
-// moved the code block inside of the curly brackets to a new line so it's easier to look at.
+// moved the code block inside of the curly brackets to a new line
+// added semicolon
+// repositioned curly brackets
+
 
 // EX 2:
 function addThreeNums(first, second, third) {
