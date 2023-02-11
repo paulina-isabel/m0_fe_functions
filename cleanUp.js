@@ -8,23 +8,26 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askForName() { 
+  console.log("Hello, what is your name?") 
+}
 
 askForName()
 
+// moved the code block inside of the curly brackets to a new line so it's easier to look at.
 
 // EX 2:
 function addThreeNums(first, second, third) {
 var sum = first + second + third
 return sum;
-      }
+}
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
-
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+// Added console.log to see values printed to console
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -33,6 +36,7 @@ func makeFreshPesto(){
 
 makeFreshPesto();
 
+//function needed to be spelled out all the way: 'func' => 'function'
 
 //  EX 4:
 function average(num1, num2) 
@@ -40,5 +44,8 @@ function average(num1, num2)
 var sum = num1 + num2;
     var avg = sum / 2;
 
-return avg
+return avg;
   }
+  console.log (average(100, 50))
+
+  // added console.log with calls with two numbers to confirm the code works as intended
